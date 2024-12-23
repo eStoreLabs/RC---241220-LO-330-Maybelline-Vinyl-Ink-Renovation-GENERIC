@@ -606,7 +606,7 @@ body {
 #es-maybelline.es-maybelline .es-cross__packshot {
   margin-bottom: 16px;
   padding-bottom: 16px;
-  width: 100%;
+  width: 80%;
 }
 #es-maybelline.es-maybelline .es-cross__img {
   max-width: 100%;
@@ -799,6 +799,9 @@ body {
   }
   #es-maybelline.es-maybelline .es-steps__container {
     padding-top: 0;
+  }
+  #es-maybelline.es-maybelline .es-cross__container {
+    justify-content: space-around;
   }
 }
 

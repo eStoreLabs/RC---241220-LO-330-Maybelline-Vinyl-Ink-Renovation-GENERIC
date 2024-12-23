@@ -587,7 +587,7 @@ body {
     &__packshot {
       margin-bottom: 16px;
       padding-bottom: 16px;
-      width: 100%;
+      width: 80%;
     }
     &__img {
       @include img;
@@ -798,6 +798,12 @@ body {
 
       &__container {
         padding-top: 0;
+      }
+    }
+
+    .es-cross {
+      &__container {
+        justify-content: space-around;
       }
     }
   }

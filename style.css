@@ -112,8 +112,8 @@ body {
 #es-maybelline.es-maybelline .es-kv__text--two {
   position: absolute;
   bottom: 4px;
-  padding-left: 50px;
-  font-size: 14px;
+  padding-left: 40px;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -674,6 +674,15 @@ body {
   #es-maybelline.es-maybelline .es-kv__title {
     font-size: 48px;
   }
+  #es-maybelline.es-maybelline .es-kv__text--title {
+    font-size: 25px;
+  }
+  #es-maybelline.es-maybelline .es-kv__text--two {
+    position: absolute;
+    bottom: 21px;
+    padding-left: 100px;
+    font-size: 16px;
+  }
 }
 @media screen and (min-width: 768px) {
   #es-maybelline.es-maybelline .es-kv {
@@ -706,11 +715,14 @@ body {
     height: 100%;
   }
   #es-maybelline.es-maybelline .es-kv__text--two {
-    padding-left: 10px;
+    padding-left: 0px;
     bottom: 0px;
-    right: 113px;
-    font-size: 12px;
+    right: 70px;
+    font-size: 10px;
     text-align: center;
+  }
+  #es-maybelline.es-maybelline .es-kv__text--title {
+    font-size: 20px;
   }
   #es-maybelline.es-maybelline .es-kv__text--two-top {
     padding-left: 0;
@@ -782,6 +794,13 @@ body {
   }
 }
 @media screen and (min-width: 998px) {
+  #es-maybelline.es-maybelline .es-kv__text--two {
+    font-size: 12px;
+    right: 113px;
+  }
+  #es-maybelline.es-maybelline .es-kv__text--two-top {
+    right: 50px;
+  }
   #es-maybelline.es-maybelline .es-features__subtitle {
     max-width: 72%;
     margin: 0 auto;

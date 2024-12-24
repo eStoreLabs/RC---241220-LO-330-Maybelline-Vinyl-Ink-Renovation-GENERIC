@@ -112,8 +112,8 @@ body {
 #es-maybelline.es-maybelline .es-kv__text--two {
   position: absolute;
   bottom: 4px;
-  padding-left: 40px;
-  font-size: 13px;
+  padding-left: 20px;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -141,6 +141,7 @@ body {
   font-size: 20px;
   font-weight: 800;
   font-family: "Roboto Condensed", sans-serif;
+  padding-left: 36px;
 }
 #es-maybelline.es-maybelline .es-features {
   margin-bottom: 72px;
@@ -467,8 +468,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
   height: auto;
   padding: 32px;
+  max-width: 636px;
 }
 #es-maybelline.es-maybelline .es-steps__single {
   display: flex;
@@ -505,6 +508,7 @@ body {
 }
 #es-maybelline.es-maybelline .es-steps__title--single {
   margin-bottom: 5px;
+  margin-top: 5px;
   text-transform: uppercase;
 }
 #es-maybelline.es-maybelline .es-others {
@@ -717,7 +721,7 @@ body {
   #es-maybelline.es-maybelline .es-kv__text--two {
     padding-left: 0px;
     bottom: 0px;
-    right: 70px;
+    right: 78px;
     font-size: 10px;
     text-align: center;
   }
@@ -793,6 +797,11 @@ body {
     outline: 3px solid #000;
   }
 }
+@media screen and (min-width: 900px) {
+  #es-maybelline.es-maybelline .es-kv__text--two {
+    right: 88px;
+  }
+}
 @media screen and (min-width: 998px) {
   #es-maybelline.es-maybelline .es-kv__text--two {
     font-size: 12px;
@@ -818,6 +827,7 @@ body {
   }
   #es-maybelline.es-maybelline .es-steps__container {
     padding-top: 0;
+    max-width: none;
   }
   #es-maybelline.es-maybelline .es-cross__container {
     justify-content: space-around;

@@ -16,6 +16,14 @@ body {
   color: #000;
   background: #fff;
 }
+#es-maybelline.es-maybelline ::-moz-selection {
+  color: #FFF;
+  background-color: #750024;
+}
+#es-maybelline.es-maybelline ::selection {
+  color: #FFF;
+  background-color: #750024;
+}
 #es-maybelline.es-maybelline * {
   box-sizing: border-box;
 }
@@ -239,15 +247,44 @@ body {
 }
 #es-maybelline.es-maybelline .es-benefits__text--one {
   order: 1;
+  background-color: #a82d4c;
+  color: #a82d4c;
 }
 #es-maybelline.es-maybelline .es-benefits__img--one {
   order: 2;
 }
 #es-maybelline.es-maybelline .es-benefits__text--two {
   order: 3;
+  background-color: #750024;
+  color: #750024;
 }
 #es-maybelline.es-maybelline .es-benefits__img--two {
   order: 4;
+}
+#es-maybelline.es-maybelline .es-benefits__textWrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}
+#es-maybelline.es-maybelline .es-benefits__textWrapper .es-benefits__text--1 {
+  text-shadow: 0px -2px 1px #D8A1AF, -2px 2px 1px #7E1320, 2px 2px 1px #7E1320, 0px 4px 2px #7B111E, -3px -2px 3px #BD6178, 3px -2px 3px #BD6178, 3px 0px 3px #921F35, -3px 0px 3px #921F35, -3px 0px 3px #921F35;
+}
+#es-maybelline.es-maybelline .es-benefits__textWrapper .es-benefits__text--2 {
+  text-shadow: 0px -2px 1px #c88b9d, -2px 2px 1px #55000D, 2px 2px 1px #55000D, 0px 4px 2px #57000E, -3px -2px 3px #A15069, 3px -2px 3px #A15069, 3px 0px 3px #6E0018, -3px 0px 3px #6E0018, -3px 0px 3px #6E0018;
+}
+#es-maybelline.es-maybelline .es-benefits__text {
+  font-size: clamp(50px, -7.816px + 19.2719vw, 140px);
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 #es-maybelline.es-maybelline .es-banner {
   margin-bottom: 64px;
@@ -768,6 +805,15 @@ body {
   }
   #es-maybelline.es-maybelline .es-benefits__img--two {
     order: 3;
+  }
+  #es-maybelline.es-maybelline .es-benefits__textWrapper .es-benefits__text--1 {
+    text-shadow: 0px -3px 2px #D8A1AF, -3px 3px 2px #7E1320, 3px 3px 2px #7E1320, 0px 5px 3px #7B111E, -4px -3px 4px #BD6178, 4px -3px 4px #BD6178, 4px 0px 4px #921F35, -4px 0px 4px #921F35, -4px 0px 4px #921F35;
+  }
+  #es-maybelline.es-maybelline .es-benefits__textWrapper .es-benefits__text--2 {
+    text-shadow: 0px -3px 2px #c88b9d, -3px 3px 2px #55000D, 3px 3px 2px #55000D, 0px 5px 3px #57000E, -4px -3px 4px #A15069, 4px -3px 4px #A15069, 4px 0px 4px #6E0018, -4px 0px 4px #6E0018, -4px 0px 4px #6E0018;
+  }
+  #es-maybelline.es-maybelline .es-benefits__text {
+    font-size: clamp(70px, -29.31px + 12.931vw, 100px);
   }
   #es-maybelline.es-maybelline .es-banner__text {
     top: 50%;
